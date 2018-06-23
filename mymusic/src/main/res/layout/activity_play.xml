@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    tools:context=".PlayActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:id="@+id/Play_Title"
+            android:text="音乐播放"
+           style="@style/MyTitle" />
+        <ImageView
+            android:onClick="back"
+            android:id="@+id/back"
+            android:src="@drawable/back"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <ImageView
+            android:id="@+id/statics"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/statics"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+    <com.example.mymusic.View.DiscView
+        android:id="@+id/Play_DiscView"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+
+    <RelativeLayout
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_alignParentLeft="true"
+            android:id="@+id/imageView_Play_Favo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/favo"
+            />
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:id="@+id/imageView_Play_DownLoad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/download"
+            />
+    </RelativeLayout>
+    <SeekBar
+        android:max="100"
+        android:paddingTop="10dp"
+        android:id="@+id/seekBar_Play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_alignParentLeft="true"
+            android:id="@+id/textView_Play_Current"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1:30"
+            />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/textView_Play_Duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5:30"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/imageButton_Play_Previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/previous"
+
+            />
+        <ImageButton
+            android:id="@+id/imageButton_Play_Pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pause"
+
+            />
+        <ImageButton
+            android:id="@+id/imageButton_Play_Next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/next"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

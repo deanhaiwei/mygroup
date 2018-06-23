@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <TextView
+        android:text="用户登录"
+        style="@style/MyTitle" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:text="登录账号:"
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:hint="请输入用户名"
+            android:layout_marginLeft="3dp"
+            android:paddingLeft="5dp"
+            android:id="@+id/Login_EditText_Usersname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_shape"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:text="登录密码:"
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:hint="请输入密码"
+            android:layout_marginLeft="3dp"
+            android:paddingLeft="5dp"
+            android:inputType="textPassword"
+            android:id="@+id/Login_EditText_Password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_shape"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:text="验证码:"
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:hint="请输入密码"
+            android:layout_marginLeft="3dp"
+            android:paddingLeft="5dp"
+            android:inputType="textPersonName"
+            android:id="@+id/Login_EditText_Code"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittext_shape"/>
+        <ImageView
+            android:clickable="true"
+            android:layout_marginLeft="10dp"
+            android:onClick="refrashCode"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/Login_ImageView_Code"
+            android:layout_width="120dp"
+            android:scaleType="fitXY"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <Button
+        android:text="登录"
+        android:textSize="30sp"
+        android:onClick="login"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_shape"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+</LinearLayout>

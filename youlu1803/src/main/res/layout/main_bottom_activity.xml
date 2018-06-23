@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RadioGroup
+    android:id="@+id/main_RadioGroup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/bottom_bg"
+    android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/calllog"
+        style="@style/MainBottomBtn"
+        android:text="通话记录"
+        android:drawableTop="@drawable/selector_callog" />
+
+    <RadioButton
+        android:id="@+id/contact"
+        android:text="手机联系人"
+        style="@style/MainBottomBtn"
+        android:drawableTop="@drawable/selector_contacts"
+        android:checked="true"/>
+
+    <RadioButton
+        android:id="@+id/dailped"
+        android:text="拨打电话"
+        style="@style/MainBottomBtn"
+        android:drawableTop="@drawable/selector_dialpad" />
+
+    <RadioButton
+        android:text="短信聊天"
+        android:id="@+id/sms"
+        style="@style/MainBottomBtn"
+        android:drawableTop="@drawable/selector_sms" />
+
+
+</RadioGroup>
+</LinearLayout>

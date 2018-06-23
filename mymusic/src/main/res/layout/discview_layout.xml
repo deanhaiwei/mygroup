@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/framelayout_Disc"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ImageView_Disc"
+            android:contentDescription="@null"
+            android:src="@drawable/disc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.example.mymusic.View.CircleImageView
+            android:layout_gravity="center"
+            android:id="@+id/Album_Disc"
+            android:layout_width="100dp"
+            android:src="@drawable/ic_launcher"
+            android:layout_height="100dp" />
+    </FrameLayout>
+    <ImageView
+        android:contentDescription="@null"
+        android:id="@+id/ImageView_Disc_Pin"
+        android:src="@drawable/pin"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

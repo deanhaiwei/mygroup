@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Text</string>
+    <string name="time">5</string>
+
+    <string name="userlogin">用户登录</string>
+    <string name="touristlogin">游客登录</string>
+    <string name="markphone">记住手机号</string>
+    <string name="login">登录</string>
+</resources>

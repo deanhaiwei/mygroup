@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.keep.SportActivity">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpagerId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </android.support.v4.view.ViewPager>
+    <view
+        android:layout_above="@+id/radiogroupId"
+        android:background="#555555"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <RadioGroup
+        android:id="@+id/radiogroupId"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+        <RadioButton
+            android:checked="true"
+        android:id="@+id/btnsportId"
+        android:button="@null"
+        android:text="运动"
+            android:paddingTop="3dp"
+            android:textSize="12sp"
+        android:gravity="center"
+        android:drawableTop="@drawable/sportselector"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <RadioButton
+            android:textSize="12sp"
+        android:id="@+id/btnfoundId"
+        android:button="@null"
+            android:paddingTop="3dp"
+        android:text="发现"
+        android:gravity="center"
+        android:drawableTop="@drawable/foundselector"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        <RadioButton
+            android:textSize="12sp"
+            android:id="@+id/btnmunityId"
+            android:button="@null"
+            android:text="社区"
+            android:gravity="center" android:paddingTop="3dp"
+            android:drawableTop="@drawable/comselector"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:textSize="12sp"
+            android:id="@+id/btnmyId"
+            android:button="@null" android:paddingTop="3dp"
+            android:text="我"
+            android:gravity="center"
+            android:drawableTop="@drawable/myselector"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+
+</RelativeLayout>

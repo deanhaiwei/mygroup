@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:background="#09C"
+    android:padding="@dimen/widget_margin">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/appwidget_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#09C"
+        android:text="歌名"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/appwidget_singer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#09C"
+            android:text="歌手"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+    <ImageButton
+        android:src="@drawable/play"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+
+        android:layout_weight="1"
+        android:id="@+id/appwidget_play"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+    <ImageButton
+        android:layout_weight="1"
+        android:src="@drawable/pause"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/appwidget_pause"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+    <ImageButton
+        android:layout_marginRight="10dp"
+        android:src="@drawable/next"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/appwidget_next"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+</LinearLayout>

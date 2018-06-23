@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="15dp"
+    android:layout_height="65dp">
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ImageView_SMS_Photo"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="65dp"
+            android:layout_height="65dp" />
+        <ImageView
+            android:id="@+id/ImageView_SMS_Warning"
+            android:src="@mipmap/ic_warning"
+            android:layout_gravity="end|bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <TextView
+        android:id="@+id/TextView_SMS_Name"
+        android:layout_toRightOf="@+id/frame"
+        android:text="会话姓名"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/ImageView_SMS_Type"
+        android:src="@mipmap/ic_unread"
+        android:layout_toRightOf="@+id/frame"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"
+        android:layout_width="24dp"
+        android:layout_height="24dp" />
+    <TextView
+        android:id="@+id/TextView_SMS_Body"
+        android:layout_alignParentBottom="true"
+        android:textSize="20sp"
+        android:text="会话内容"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+        android:layout_toRightOf="@+id/ImageView_SMS_Type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/TextView_SMS_Date"
+        android:text="会话时间"
+        android:textSize="20dp"
+        android:layout_alignParentEnd="true"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

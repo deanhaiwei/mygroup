@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mygroup/mygroup.iml" filepath="$PROJECT_DIR$/mygroup/mygroup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mymusic/mymusic.iml" filepath="$PROJECT_DIR$/mymusic/mymusic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mynetlogin/mynetlogin.iml" filepath="$PROJECT_DIR$/mynetlogin/mynetlogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progresslib/progresslib.iml" filepath="$PROJECT_DIR$/progresslib/progresslib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagerIndicator_library/viewpagerIndicator_library.iml" filepath="$PROJECT_DIR$/viewpagerIndicator_library/viewpagerIndicator_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weather_forecast/weather_forecast.iml" filepath="$PROJECT_DIR$/weather_forecast/weather_forecast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuangongguanli/yuangongguanli.iml" filepath="$PROJECT_DIR$/yuangongguanli/yuangongguanli.iml" />
+    </modules>
+  </component>
+</project>

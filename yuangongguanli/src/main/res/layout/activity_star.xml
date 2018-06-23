@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StarActivity">
+
+    <TextView
+       style="@style/MyTitle"
+        android:text="员工管理"
+         />
+    <Button
+        android:onClick="Regist"
+        android:id="@+id/Star_btn_Regist"
+        android:text="用户注册"
+        style="@style/MyBtn" />
+    <Button
+        android:onClick="Login"
+        android:id="@+id/Star_btn_Login"
+        android:text="用户登录"
+        style="@style/MyBtn" />
+    <Button
+        android:onClick="Add"
+        android:id="@+id/Star_btn_Add"
+        android:text="员工添加"
+        style="@style/MyBtn" />
+    <Button
+        android:onClick="Browse"
+        android:id="@+id/Star_btn_Browse"
+        android:text="员工浏览"
+        style="@style/MyBtn" />
+
+</LinearLayout>

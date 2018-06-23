@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.text.SplashActivity">
+
+    <ImageView
+        android:id="@+id/im_splash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ah9"
+        android:scaleType="fitXY"
+        android:layout_above="@+id/tv_verson"
+        tools:ignore="ContentDescription,VectorDrawableCompat" />
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:text="5"
+        android:textSize="25sp"
+
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tv_verson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="17dp"
+        android:text="verson 1.0"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

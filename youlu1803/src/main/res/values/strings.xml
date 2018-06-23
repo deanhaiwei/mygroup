@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Youlu1803</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="contact">添加联系人</string>
+    <string name="dialpad">拨打电话</string>
+    <string name="sms">短信聊天</string>
+
+
+    <string name="calllog">电话记录</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Name">请输入联系人姓名</string>
+    <string name="phone">请输入电话号码</string>
+    <string name="email">请输入电子邮箱</string>
+    <string name="Address">请输入地址</string>
+    <string name="Company">请输入公司名称</string>
+    <string name="emIL01">联系人邮箱</string>
+    <string name="phone01">联系人电话</string>
+    <string name="Email01">x12345652@126.com</string>
+    <string name="Address01">联系人地址</string>
+    <string name="Address02">厦门</string>
+</resources>

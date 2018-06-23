@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="30dp">
+    <RelativeLayout
+        android:background="@mipmap/dialog_header"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:id="@+id/ImageView_Contact_Add_Dailog_Close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="@mipmap/ic_close"/>
+        <ImageView
+            android:layout_alignParentEnd="true"
+            android:background="@mipmap/ic_selected"
+            android:padding="8dp"
+            android:id="@+id/ImageView_Contact_Add_Dailog_Comfrim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/EditText_Contact_Add_Name"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@mipmap/line"
+            android:hint="@string/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@mipmap/gray_bg"
+        android:orientation="vertical">
+       <EditText
+           android:id="@+id/EditText_Contact_Add_Phone"
+          style="@style/MyEditText"
+           android:hint="@string/phone"/>
+        <EditText
+            android:id="@+id/EditText_Contact_Add_Email"
+            style="@style/MyEditText"
+            android:hint="@string/email"/>
+        <EditText
+            android:id="@+id/EditText_Contact_Add_Address"
+            style="@style/MyEditText"
+            android:hint="@string/Address"/>
+        <EditText
+            android:id="@+id/EditText_Contact_Add_Company"
+            style="@style/MyEditText"
+            android:hint="@string/Company"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

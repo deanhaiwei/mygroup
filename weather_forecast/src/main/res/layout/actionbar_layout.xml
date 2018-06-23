@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:layout_height="60dp">
+    <ImageView
+        android:id="@+id/actionbar_side"
+        android:src="@drawable/side"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:id="@+id/actionbar_titile"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:text="城市"/>
+    <ImageView
+        android:id="@+id/actionbar_statics"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/statics"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+</LinearLayout>
